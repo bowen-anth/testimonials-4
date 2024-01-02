@@ -4,8 +4,14 @@
     box-sizing: border-box;
 }
 
+.main-wrapper {
+    background-color: rgb(61, 21, 192);
+}
+
 .main-container {
-    margin: 10rem;
+    height: 100dvh;
+    width: 70dvw;
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -13,6 +19,13 @@
     /* border: 1px solid gray; */
     justify-content: center;
     gap: 1em;
+    background-color: rgb(246, 242, 250);
+}
+
+.card-container {
+    background-color: rgb(252, 252, 252);
+    padding: 2em;
+    border-radius: 15px;;
 }
 
 .middle-container {
@@ -20,12 +33,13 @@
     align-content: center;
     align-items: center;
     
-    color: rgb(243, 236, 236);
+    color: rgb(245, 238, 238);
     height: 8rem;
     width: 34rem;
     border-radius: 8px;
     font-size: 1.15rem;
     line-height: 1.25;
+    margin-top: 1em;
 }
 
 .testimonial-author-container {
